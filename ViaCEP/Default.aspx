@@ -24,9 +24,22 @@
         <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style2"></asp:TextBox>
         <br class="auto-style1" />
         <br class="auto-style1" />
-        <asp:Button ID="Button1" runat="server" CssClass="auto-style2" Text="Buscar" />
+        <asp:Button ID="Button1" runat="server" CssClass="auto-style2" OnClick="Button1_Click" Text="Buscar" />
         <br />
         <br />
+        <span class="auto-style2">ID: </span>
+        <asp:Label ID="lblId" runat="server" CssClass="auto-style2"></asp:Label>
+        <br class="auto-style2" />
+        <span class="auto-style2">Enderço:</span><asp:Label ID="lblEnd" runat="server" CssClass="auto-style2"></asp:Label>
+        <br class="auto-style2" />
+        <span class="auto-style2">Cidade:</span><asp:Label ID="lblCid" runat="server" CssClass="auto-style2"></asp:Label>
+        <br class="auto-style2" />
+        <span class="auto-style2">Bairro: </span>
+        <asp:Label ID="lblBairro" runat="server" CssClass="auto-style2"></asp:Label>
+        <br class="auto-style2" />
+        <span class="auto-style2">UF: </span>
+        <asp:Label ID="lblUF" runat="server" CssClass="auto-style2"></asp:Label>
+        <br class="auto-style2" />
         <br />
     
     </div>
